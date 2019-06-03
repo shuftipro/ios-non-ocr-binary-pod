@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ShuftiPro"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "Shufti Pro is designed to verify documents in realtime."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Shufti Pro has designed this Verification API document for its customers that ha
   #
 
   spec.ios.vendored_frameworks = 'ShuftiPro.framework'
-  spec.swift_version = "3"
+  spec.swift_version = "4"
 
   spec.source_files  = "ShuftiPro.framework/Headers/*.h"
   spec.exclude_files = "Classes/Exclude"
